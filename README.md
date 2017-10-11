@@ -16,9 +16,9 @@ Ce projet comprend les fichiers suivants :
 Le fichier README.md contient les instructions
 
 
-Le programme python clientUDP.py permet de gagner
+**Le programme python clientUDP.py permet de gagner
 une place de ciné après modification du code pour 
-échanger les trames selon le protocole suivant :
+échanger les trames selon le protocole suivant :**
 
 Question:
 * clientUDP ---["cinema"]----serveurUDP(192.168.0.202:5005)
@@ -28,11 +28,11 @@ Réponse:
 
 Format de la trame de réponse:
 * Le numéro de carte client est un entier sur 32bits.
-* Ce numéro est renvoyé suite à la demande string "cine".
+* Ce numéro est renvoyé suite à la demande string "cinema".
 * Ce numéro est renvoyé sur 4 octet, octet de poids faible en premier
 
 
-Si vous décripter ce dand le programme client, vous pouvez gagner
+Si vous décriptez ce code dans le programme client, vous pouvez gagner
 cette carte de ciné!!!!
 
 
